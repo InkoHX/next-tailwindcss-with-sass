@@ -1,0 +1,6 @@
+/dist/
+/.next/
+/public/
+/out/
+/build
+/.vercel/
