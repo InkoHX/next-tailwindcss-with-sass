@@ -4,3 +4,4 @@
 /out/
 /build
 /.vercel/
+/pnpm-lock.yaml
