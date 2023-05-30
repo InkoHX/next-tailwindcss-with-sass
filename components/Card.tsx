@@ -1,9 +1,9 @@
-import React from "react";
-import styles from "../styles/Card.module.scss";
+import React from 'react'
+import styles from '../styles/Card.module.scss'
 
 export interface CardProps {
-  children: React.ReactNode;
-  title: string;
+  children: React.ReactNode
+  title: string
 }
 
 export const Card: React.FC<CardProps> = (props) => {
@@ -12,5 +12,5 @@ export const Card: React.FC<CardProps> = (props) => {
       <div className={styles.Card__title}>{props.title}</div>
       <div className={styles.Card__description}>{props.children}</div>
     </div>
-  );
-};
+  )
+}
