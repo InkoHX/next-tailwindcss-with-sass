@@ -13,11 +13,3 @@
 .Card__description {
   @apply mb-2 break-words;
 }
-
-.Card__link {
-  @apply text-blue-500;
-
-  &:hover {
-    @apply underline;
-  }
-}
