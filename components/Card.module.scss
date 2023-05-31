@@ -1,5 +1,5 @@
 .Card {
-  @apply mb-4 rounded-lg bg-white p-4 transition-all duration-200 ease-in-out;
+  @apply mb-4 rounded-lg bg-white p-4 transition-all;
 
   &:hover {
     @apply shadow-lg;
